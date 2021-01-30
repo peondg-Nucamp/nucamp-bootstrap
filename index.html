@@ -65,20 +65,20 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-6 col-form-label" for="#campsiteType">Campsite Type</label>
-                                <div id="campsiteType" class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="col-sm-6 col-form-label" for="#siteType">Campsite Type</label>
+                                <div id="siteType" class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-success active">
-                                        <input type="radio" name="options" id="siteTent" checked> Tent
+                                        <input type="radio" name="siteType" id="siteTent" checked> Tent
                                     </label>
                                     <label class="btn btn-primary">
-                                        <input type="radio" name="options" id="siteRV"> RV
+                                        <input type="radio" name="siteType" id="siteRV"> RV
                                     </label>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col">
                                     <input class="btn btn-secondary" type="button" value="Cancel" data-dismiss="modal" />
-                                    <input class="btn btn-primary" value="Search" type="submit" />
+                                    <input class="btn btn-primary" type="submit" value="Search" />
                                 </div>
                             </div>
                         </form>
@@ -273,12 +273,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- jQuery script that needs to be added for tooltips to work  -->
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
 </body>
 
 </html>
