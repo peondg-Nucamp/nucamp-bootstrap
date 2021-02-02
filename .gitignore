@@ -1,4 +1,3 @@
 node_modules
 package-lock.json
-css/styles.old.css
-css/styles.css
+dist
